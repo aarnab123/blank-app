@@ -1,6 +1,15 @@
 import streamlit as st
-
-st.title("🎈 My new app")
-st.write(
-    "testing."
+about_page = st.Page(
+    page="view/about_me.py",
+    title="About me",
+    icon= ,
+    default=True,
 )
+Project1 = st.Page(
+    page="view/visualizationss.py",
+    title="Visualizations",
+    icon= ,)
+Project2 = st.Page(
+    page="view/ml_projects.py,
+    title="Machine Learning Tasks",
+    icon= ,)
