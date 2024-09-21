@@ -10,9 +10,9 @@ Project1 = st.Page(
     title="Visualizations",
     icon= ,)
 Project2 = st.Page(
-    page="Views/ml_projects.py,
+    page="Views/ml_projects.py",
     title="Machine Learning Tasks",
     icon= ,)
 
-pg = st.nevigation(pages=['about_page','Project1','Project2'])
+pg = st.navigation(pages=['about_page','Project1','Project2'])
 pg.run()
