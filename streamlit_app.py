@@ -1,16 +1,16 @@
 import streamlit as st
 about_page = st.Page(
-    page="view/about_me.py",
+    page="Views/about_me.py",
     title="About me",
     icon= ,
     default=True,
 )
 Project1 = st.Page(
-    page="view/visualizations.py",
+    page="Views/visualizations.py",
     title="Visualizations",
     icon= ,)
 Project2 = st.Page(
-    page="view/ml_projects.py,
+    page="Views/ml_projects.py,
     title="Machine Learning Tasks",
     icon= ,)
 
