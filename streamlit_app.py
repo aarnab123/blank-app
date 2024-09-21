@@ -6,7 +6,7 @@ about_page = st.Page(
     default=True,
 )
 Project1 = st.Page(
-    page="view/visualizationss.py",
+    page="view/visualizations.py",
     title="Visualizations",
     icon= ,)
 Project2 = st.Page(
